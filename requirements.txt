@@ -3,6 +3,7 @@ jupyter-contrib-nbextensions==0.5.1
 jupyter-highlight-selected-word==0.2.0
 jupyter-latex-envs==1.4.6
 jupyter-nbextensions-configurator==0.4.1
+inflection==0.5.1
 kiwisolver==1.4.0
 lazy-object-proxy==1.4.3
 lxml==4.7.1
@@ -18,4 +19,4 @@ selenium==3.141.0
 sklearn==0.0
 boruta==0.3
 xgboost==1.6.0
-Flask=2.1.2
+Flask==2.1.2

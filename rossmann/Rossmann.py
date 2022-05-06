@@ -61,7 +61,7 @@ class Rossmann( object ):
 
         df1['is_promo'] = df1[['promo_interval', 'month_map']].apply( lambda x: 0 if x['promo_interval'] == 0 else 1 if x['month_map'] in x['promo_interval'].split( ',' ) else 0, axis=1)
 
-        df1.sample( 5 ).T
+        # df1.sample( 5 ).T
 
         ## 1.6. Change Types
 
